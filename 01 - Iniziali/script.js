@@ -5,6 +5,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+
+/** 
+* Extracts the initial of each string contained in a given array
+* @param{object} array - the array that needs ectraction
+* @returns{object} -  the array of initials
+**/
 const estractArrayInitials = (array) => {
     let resArray = []
     for (i = 0; i < names.length; i++) {
