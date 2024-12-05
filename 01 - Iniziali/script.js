@@ -3,11 +3,20 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
+
 // Dichiara la funzione qui.
+const estractArrayInitials = (array) => {
+    let resArray = []
+    for (i = 0; i < names.length; i++) {
+        resArray[i] = array[i][0]
+    }
+    return resArray
+
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(estractArrayInitials(names))
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
