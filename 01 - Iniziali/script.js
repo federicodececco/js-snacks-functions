@@ -13,7 +13,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 **/
 const estractArrayInitials = (array) => {
     let resArray = []
-    for (i = 0; i < names.length; i++) {
+    for (let i = 0; i < names.length; i++) {
         resArray[i] = array[i][0]
     }
     return resArray
